@@ -7,6 +7,6 @@
 
 # RN -> Regras de Negócio
 
-- [ ] A transação pode ser crédito ou débito
-- [ ] Deve ser possível identificar usuários entre as transações
-- [ ] Usuário só pode ver as próprias transações
+- [X] A transação pode ser crédito ou débito
+- [X] Deve ser possível identificar usuários entre as transações
+- [X] Usuário só pode ver as próprias transações
