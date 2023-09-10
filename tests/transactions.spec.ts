@@ -109,6 +109,7 @@ describe('Transaction Routes', () => {
 
     const cookies = createTransactionResponse.get('Set-Cookie')
 
+    // setar os cookies da primeira transação
     await request(app.server)
       .post('/transactions')
       .set('Cookie', cookies)
